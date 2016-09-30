@@ -1,0 +1,31 @@
+CD to .. 
+/home/mattox/repos/fa16-exam1-grading/submissions/boyuli3
+#################################################
+##                                             ##
+##     Grading question exam-1-code-vector     ##
+##                                             ##
+#################################################
+Grader dir is /home/mattox/repos/fa16-exam1-grading/code-grading/scripts
+qid is exam-1-code-vector
+shape is vector
+test_dir is /home/mattox/repos/fa16-exam1-grading/code-grading/scripts/tests/vector
+fullTmpDir = /home/mattox/repos/fa16-exam1-grading/submissions/boyuli3/grade-vector.nf2
+:: Compiling...
+g++ -std=c++0x -c -g -O0 -Wall -Wextra -Wno-unused-function   -c -o vector.o vector.cpp
+vector.cpp:13:17: error: definition of implicitly-declared ‘Vector::~Vector()’
+ Vector::~Vector(){
+                 ^
+<builtin>: recipe for target 'vector.o' failed
+make: *** [vector.o] Error 1
+Could not compile vector.o.
+
+Grade for question exam-1-code-vector: 0/100
+
+
+~ ~ ~
+
+Grade: 0
+
+Details:
+test,grade
+vector_compiled,0
